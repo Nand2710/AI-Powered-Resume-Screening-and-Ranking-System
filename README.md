@@ -31,6 +31,13 @@ This project is designed to help HR professionals and recruiters save time and i
 
 ---
 
+## 🖼️ Screenshots
+
+| Upload Job Description and Resume | Uploaded Resume(s) | Ranked Results |
+|------------------------|------------------|----------------|
+| ![Job Description](https://github.com/Nand2710/AI-Powered-Resume-Screening-and-Ranking-System/blob/main/Images/Upload%20Job%20Description%20and%20Resume.PNG) | ![Resume Upload](https://github.com/Nand2710/AI-Powered-Resume-Screening-and-Ranking-System/blob/main/Images/Uploaded%20Job%20Description%20and%20Resume.PNG) | ![Results](https://github.com/Nand2710/AI-Powered-Resume-Screening-and-Ranking-System/blob/main/Images/Ranked%20Results.PNG) |
+
+---
 ## ⚙️ Installation
 
 ## Installation
