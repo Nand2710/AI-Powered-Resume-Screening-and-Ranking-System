@@ -72,7 +72,7 @@ def add_background(image_url):
     )
 
 # Replace with your new static image URL
-add_background("https://img.freepik.com/free-vector/gradient-black-backgrounds-with-golden-frames_23-2149148385.jpg?semt=ais_hybrid")
+add_background("https://img.freepik.com/free-vector/modern-abstract-dark-violate-pink-background_84443-2788.jpg?semt=ais_hybrid&w=740&q=80")
 
 st.title("AI Resume Ranking System")
 # Job description input
@@ -99,3 +99,4 @@ if uploaded_files and job_description:
     results = results.sort_values(by="Score", ascending=False)
     
     st.write(results)
+
