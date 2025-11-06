@@ -1,51 +1,73 @@
-# AI Resume Ranking System
+# 🧠 AI Resume Ranking System
 
-[![Streamlit App](https://img.shields.io/badge/Streamlit-App-blue)](https://ai-resume-ranking-system-jhukfgy3rn33cjnbxuyfsg.streamlit.app/)
+## 📘 Overview
 
-## Overview
+The **AI Resume Ranking System** is an intelligent, automated tool built to streamline the recruitment process by leveraging **Natural Language Processing (NLP)** and **Machine Learning**.  
+It scans resumes, extracts relevant information, and ranks candidates based on how closely their skills match the provided job description.
 
-This project is an AI-powered resume screening and ranking system designed to automate the initial stages of the recruitment process. It leverages natural language processing (NLP) and machine learning techniques to efficiently match candidates with job descriptions.
+This project is designed to help HR professionals and recruiters save time and identify top candidates efficiently.
 
-## Features
+---
 
-- **Resume Screening**: Automatically extracts key skills from resumes and compares them to job requirements.
-- **Ranking System**: Ranks candidates based on their suitability for the job.
-- **User-Friendly Interface**: Streamlit app provides an intuitive interface for uploading resumes and job descriptions.
+## 🚀 Features
 
-## Screenshots
+- 🔍 **Automated Resume Screening** – Extracts and identifies important skills, experiences, and qualifications.  
+- 📊 **AI-Based Ranking System** – Ranks candidates according to job description relevance.  
+- 💻 **Interactive Interface** – Simple and intuitive **Streamlit** web app for uploading resumes and job descriptions.  
+- ⚙️ **NLP-Powered Matching** – Uses text similarity and keyword extraction for accurate matching.
 
-![App_Screenshot](https://github.com/Akshint0407/AI-Resume-Ranking-System/blob/main/App_Screenshot.png)
-![Resume_Upload](https://github.com/Akshint0407/AI-Resume-Ranking-System/blob/main/Resume_Upload.png)
+---
 
-![Ranked_Results](https://github.com/Akshint0407/AI-Resume-Ranking-System/blob/main/Ranking_Results.png)
+## 🧩 Tech Stack
 
-## Requirements
+- **Frontend**: Streamlit  
+- **Backend**: Python  
+- **Libraries**: 
+  - `scikit-learn` (Machine Learning)
+  - `spaCy` / `NLTK` (Natural Language Processing)
+  - `PyPDF2` / `pdfminer.six` (Resume text extraction)
+  - `pandas`, `numpy` (Data handling)
+- **Deployment**: Streamlit Cloud
 
-See [requirements.txt](requirements.txt) for dependencies.
+---
+
+## ⚙️ Installation
 
 ## Installation
 
-1. Clone this repository.
-2. Install dependencies using `pip install -r requirements.txt`.
-3. Run the app with `streamlit run resume_app.py`.
+1. Clone the repository:
+   ```bash  
+   git clone https://github.com/your-username/Intelligent-Healthcare-Assistant.git
+   cd Intelligent-Healthcare-Assistant  
+   
+2. Install Dependencies:
+   ```bash
+    pip install -r requirements.txt  
+   
+3. Run the Application:
+   ```bash
+   streamlit run resume_app.py
+ ---
+## 💡 Usage
 
-## Usage
+1. Upload multiple resumes (PDF format).
+2. Enter or paste a job description in the provided text area.
+3. Click "Rank Candidates" to generate ranking results.
+4. View a ranked list of candidates based on their skill-job match score.
+---
+## 🔮 Future Enhancements
 
-1. Upload resumes in PDF format.
-2. Enter a job description.
-3. The system will rank resumes based on their relevance to the job.
+- 🧩 Continuous Learning: Implement feedback loops to improve model accuracy over time.
+- 🧠 Bias Mitigation: Integrate fairness algorithms to reduce hiring bias.
+- ☁️ Database Integration: Store candidate profiles for future comparison and analytics.
+- 🧾 Comprehensive Reporting: Generate downloadable analytics reports in PDF/CSV format.
+---
 
-## Future Work
+## 🤝 Contributing
 
-- **Continuous Learning**: Implement feedback loops to improve model accuracy over time.
-- **Bias Mitigation**: Develop strategies to reduce bias in candidate evaluations.
-
-## Contributing
-
-Contributions are welcome! Please submit pull requests with detailed explanations of changes.
-
-## License
-
-[Apache 2.0 License](LICENSE) - see LICENSE for details
-
-
+Contributions are always welcome!
+If you'd like to improve this project:
+  1. Fork the repo
+  2. Create a new branch (feature/your-feature)
+  3. Commit your changes
+  4. Submit a pull request with a detailed description of improvements
