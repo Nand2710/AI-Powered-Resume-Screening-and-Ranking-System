@@ -1,4 +1,6 @@
 # 🧠 AI Resume Ranking System
+[![Streamlit App](https://img.shields.io/badge/Streamlit-App-blue)](https://ai-powered-resume-screening-and-ranking-system-aoondnlkbk5sigu.streamlit.app/)
+[![Python](https://img.shields.io/badge/Python-3.8+-yellow.svg)](https://www.python.org/)
 
 ## 📘 Overview
 
