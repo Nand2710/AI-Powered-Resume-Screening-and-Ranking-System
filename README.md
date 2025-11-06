@@ -55,7 +55,7 @@ This project is designed to help HR professionals and recruiters save time and i
    
 3. Run the Application:
    ```bash
-   streamlit run resume_app.py
+   streamlit run app.py
  ---
 ## 💡 Usage
 
